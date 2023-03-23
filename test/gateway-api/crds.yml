@@ -29,7 +29,7 @@ spec:
       name: Description
       priority: 1
       type: string
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: "GatewayClass describes a class of Gateways available to the
@@ -256,7 +256,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: Gateway represents an instance of a service-traffic handling
@@ -966,7 +966,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: HTTPRoute provides a way to route HTTP requests. This includes
@@ -2248,7 +2248,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: "ReferencePolicy identifies kinds of resources in other namespaces
@@ -2389,7 +2389,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: TCPRoute provides a way to route TCP requests. When combined
@@ -2819,7 +2819,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: "The TLSRoute resource is similar to TCPRoute, but can be configured
@@ -3298,7 +3298,7 @@ spec:
     - jsonPath: .metadata.creationTimestamp
       name: Age
       type: date
-    name: v1alpha2
+    name: v1beta1
     schema:
       openAPIV3Schema:
         description: UDPRoute provides a way to route UDP traffic. When combined with
